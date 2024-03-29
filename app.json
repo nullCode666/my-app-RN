@@ -1,0 +1,11 @@
+{
+  "name": "AwesomeTSProject",
+  "displayName": "AwesomeTSProject",
+    "fonts": [
+      {
+        "assetBundlePatterns": [
+          "**/*.ttf"
+        ]
+      }
+    ],
+}

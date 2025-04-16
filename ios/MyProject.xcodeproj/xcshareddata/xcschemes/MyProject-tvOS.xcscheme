@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "MyProject-tvOS.app"
-               BlueprintName = "MyProject-tvOS"
-               ReferencedContainer = "container:MyProject.xcodeproj">
+               BuildableName = "MyRn-tvOS.app"
+               BlueprintName = "MyRn-tvOS"
+               ReferencedContainer = "container:MyRn.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "MyProject-tvOSTests.xctest"
-               BlueprintName = "MyProject-tvOSTests"
-               ReferencedContainer = "container:MyProject.xcodeproj">
+               BuildableName = "MyRn-tvOSTests.xctest"
+               BlueprintName = "MyRn-tvOSTests"
+               ReferencedContainer = "container:MyRn.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "MyProject-tvOSTests.xctest"
-               BlueprintName = "MyProject-tvOSTests"
-               ReferencedContainer = "container:MyProject.xcodeproj">
+               BuildableName = "MyRn-tvOSTests.xctest"
+               BlueprintName = "MyRn-tvOSTests"
+               ReferencedContainer = "container:MyRn.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "MyProject-tvOS.app"
-            BlueprintName = "MyProject-tvOS"
-            ReferencedContainer = "container:MyProject.xcodeproj">
+            BuildableName = "MyRn-tvOS.app"
+            BlueprintName = "MyRn-tvOS"
+            ReferencedContainer = "container:MyRn.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "MyProject-tvOS.app"
-            BlueprintName = "MyProject-tvOS"
-            ReferencedContainer = "container:MyProject.xcodeproj">
+            BuildableName = "MyRn-tvOS.app"
+            BlueprintName = "MyRn-tvOS"
+            ReferencedContainer = "container:MyRn.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "MyProject-tvOS.app"
-            BlueprintName = "MyProject-tvOS"
-            ReferencedContainer = "container:MyProject.xcodeproj">
+            BuildableName = "MyRn-tvOS.app"
+            BlueprintName = "MyRn-tvOS"
+            ReferencedContainer = "container:MyRn.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,4 +1,4 @@
-package com.myproject;
+package com.myrn;
 
 import android.app.Application;
 import android.content.Context;

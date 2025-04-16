@@ -1,11 +1,4 @@
 {
-  "name": "AwesomeTSProject",
-  "displayName": "AwesomeTSProject",
-    "fonts": [
-      {
-        "assetBundlePatterns": [
-          "**/*.ttf"
-        ]
-      }
-    ],
+  "name": "MyRn",
+  "displayName": "MyRn"
 }

@@ -1,36 +1,23 @@
 import React from 'react';
-import { Button } from 'react-native';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Button, NativeModules, Text } from 'react-native';
 
-// import myPackage from "react-native-package"
+const { BleNativeModule } = NativeModules;
+
 const App = () => {
-
-
-
+  const handleCallNativeMethod = () => {
+    console.log(NativeModules)
+    console.log('Calling native method...');
+    console.info(BleNativeModule)
+    const result = BleNativeModule.doSomething();
+    console.log('Result from native method:', result);
+  };
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Hello, React Native!</Text>
-      <Button title="Click Me" onPress={() => {
-        // console.log(myPackage.showToast);
-        // myPackage.showToast('Hello from Kotlin!');
-      }} />
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Button title="Call doSomething" onPress={handleCallNativeMethod} />
+      {/* 你可以根据需要在界面上显示结果 */}
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  text: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-});
 
 export default App;
